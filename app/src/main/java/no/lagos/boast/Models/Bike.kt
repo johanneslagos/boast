@@ -5,7 +5,7 @@ import java.util.*
 /**
  * Created by Johannes D. Lagos $today
  */
-data class Bike(val bikeId: Long,
+data class Bike(val bikeId: String,
                 val name: String,
                 val brand: String?,
                 val model: String,
@@ -15,5 +15,6 @@ data class Bike(val bikeId: Long,
                 val likes: Long,
                 val nickName: String,
                 val bikeType: BIKE_TYPE?,
-                val owner: User)
+                val owner: User,
+                val images: List<String>)
 

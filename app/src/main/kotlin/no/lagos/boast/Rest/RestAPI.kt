@@ -9,7 +9,6 @@ import retrofit.http.*
  */
 interface RestAPI {
 
-    @FormUrlEncoded
     @Headers(
             "X-Parse-Application-Id: dd6gnQ00Zav09LpwoLnMNRVHHBR7DgaBHBFepIcu",
             "X-Parse-REST-API-Key: Fnx8qKrNeUCIludGzyzFfZ8D2WTHZ3NMVfRY3Ksi",
